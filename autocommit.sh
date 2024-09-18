@@ -71,7 +71,9 @@ grab_version(){
 
 if [ -f $db_file ]; then
    echo "sqlite based history database found! Copying..."
-   cp ~/printer_data/database/moonraker-sql.db ~/printer_data/config/
+   #cp ~/printer_data/database/moonraker-sql.db ~/printer_data/config/
+   cp ~/printer_data/database/backup.txt ~/printer_data/config/
+
 else
    echo "sqlite based history database not found"
 fi
