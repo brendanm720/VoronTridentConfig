@@ -34,7 +34,8 @@ mainsail_folder=~/mainsail
 ### By default that is 'main'
 branch=main
 
-db_file=~/printer_data/database/moonraker-sql.db
+#db_file=~/printer_data/database/moonraker-sql.db
+db_file=~/printer_data/database/backup.txt
 
 #####################################################################
 #####################################################################
